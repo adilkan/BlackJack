@@ -189,7 +189,9 @@ class Dealer:
                 self.player_wins += 1
             self.print_info()
 
-# Create instances and start the game
-bot = Bot()
-dealer = Dealer()
-dealer.main()
+
+if __name__ == '__main__':
+    # Create instances and start the game
+    bot = Bot()
+    dealer = Dealer()
+    dealer.main()
